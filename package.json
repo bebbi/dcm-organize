@@ -47,8 +47,12 @@
   },
   "devDependencies": {
     "bebbi-scripts": "^0.6.0",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "ts-jest": "^29.2.5"
   },
   "license": "MIT",
-  "packageManager": "yarn@4.5.3"
+  "packageManager": "yarn@4.5.3",
+  "dependencies": {
+    "dcmjs": "^0.36.0"
+  }
 }

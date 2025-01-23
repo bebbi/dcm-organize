@@ -1,0 +1,3742 @@
+{
+  "DataElement": [
+    {
+      "name": "Accession Number",
+      "group": "0008",
+      "element": "0050",
+      "action": "Z"
+    },
+    {
+      "name": "Acquisition Comments",
+      "group": "0018",
+      "element": "4000",
+      "action": "X"
+    },
+    {
+      "name": "Acquisition Context Sequence",
+      "group": "0040",
+      "element": "0555",
+      "action": "X/Z"
+    },
+    {
+      "name": "Acquisition Date",
+      "group": "0008",
+      "element": "0022",
+      "action": "X/Z"
+    },
+    {
+      "name": "Acquisition DateTime",
+      "group": "0008",
+      "element": "002A",
+      "action": "X/Z/D"
+    },
+    {
+      "name": "Acquisition Device Processing Description",
+      "group": "0018",
+      "element": "1400",
+      "action": "X/D"
+    },
+    {
+      "name": "Acquisition Field Of View Label",
+      "group": "0018",
+      "element": "11BB",
+      "action": "D"
+    },
+    {
+      "name": "Acquisition Protocol Description",
+      "group": "0018",
+      "element": "9424",
+      "action": "X"
+    },
+    {
+      "name": "Acquisition Time",
+      "group": "0008",
+      "element": "0032",
+      "action": "X/Z"
+    },
+    {
+      "name": "Acquisition UID",
+      "group": "0008",
+      "element": "0017",
+      "action": "U"
+    },
+    {
+      "name": "Actual Human Performers Sequence",
+      "group": "0040",
+      "element": "4035",
+      "action": "X"
+    },
+    {
+      "name": "Additional Patient History",
+      "group": "0010",
+      "element": "21B0",
+      "action": "X"
+    },
+    {
+      "name": "Address (Trial)",
+      "group": "0040",
+      "element": "A353",
+      "action": "X"
+    },
+    {
+      "name": "Admission ID",
+      "group": "0038",
+      "element": "0010",
+      "action": "X"
+    },
+    {
+      "name": "Admitting Date",
+      "group": "0038",
+      "element": "0020",
+      "action": "X"
+    },
+    {
+      "name": "Admitting Diagnoses Code Sequence",
+      "group": "0008",
+      "element": "1084",
+      "action": "X"
+    },
+    {
+      "name": "Admitting Diagnoses Description",
+      "group": "0008",
+      "element": "1080",
+      "action": "X"
+    },
+    {
+      "name": "Admitting Time",
+      "group": "0038",
+      "element": "0021",
+      "action": "X"
+    },
+    {
+      "name": "Affected SOP Instance UID",
+      "group": "0000",
+      "element": "1000",
+      "action": "X"
+    },
+    {
+      "name": "Allergies",
+      "group": "0010",
+      "element": "2110",
+      "action": "X"
+    },
+    {
+      "name": "Annotation Group Description",
+      "group": "006A",
+      "element": "0006",
+      "action": "X"
+    },
+    {
+      "name": "Annotation Group Label",
+      "group": "006A",
+      "element": "0005",
+      "action": "D"
+    },
+    {
+      "name": "Annotation Group UID",
+      "group": "006A",
+      "element": "0003",
+      "action": "D"
+    },
+    {
+      "name": "Approval Status DateTime",
+      "group": "0044",
+      "element": "0004",
+      "action": "X"
+    },
+    {
+      "name": "Arbitrary",
+      "group": "4000",
+      "element": "0010",
+      "action": "X"
+    },
+    {
+      "name": "Assertion DateTime",
+      "group": "0044",
+      "element": "0104",
+      "action": "D"
+    },
+    {
+      "name": "Assertion Expiration DateTime",
+      "group": "0044",
+      "element": "0105",
+      "action": "X"
+    },
+    {
+      "name": "Attribute Modification DateTime",
+      "group": "0400",
+      "element": "0562",
+      "action": "D"
+    },
+    {
+      "name": "Author Observer Sequence",
+      "group": "0040",
+      "element": "A078",
+      "action": "X"
+    },
+    {
+      "name": "Barcode Value",
+      "group": "2200",
+      "element": "0005",
+      "action": "X/Z"
+    },
+    {
+      "name": "Beam Description",
+      "group": "300A",
+      "element": "00C3",
+      "action": "X"
+    },
+    {
+      "name": "Beam Hold Transition DateTime",
+      "group": "300C",
+      "element": "0127",
+      "action": "D"
+    },
+    {
+      "name": "Bolus Description",
+      "group": "300A",
+      "element": "00DD",
+      "action": "X"
+    },
+    {
+      "name": "Branch of Service",
+      "group": "0010",
+      "element": "1081",
+      "action": "X"
+    },
+    {
+      "name": "Calibration Date",
+      "group": "0014",
+      "element": "407E",
+      "action": "X"
+    },
+    {
+      "name": "Calibration DateTime",
+      "group": "0018",
+      "element": "1203",
+      "action": "Z"
+    },
+    {
+      "name": "Calibration Time",
+      "group": "0014",
+      "element": "407C",
+      "action": "X"
+    },
+    {
+      "name": "Camera Owner Name",
+      "group": "0016",
+      "element": "004D",
+      "action": "X"
+    },
+    {
+      "name": "Cassette ID",
+      "group": "0018",
+      "element": "1007",
+      "action": "X"
+    },
+    {
+      "name": "Certificate of Signer",
+      "group": "0400",
+      "element": "0115",
+      "action": "D"
+    },
+    {
+      "name": "Certified Timestamp",
+      "group": "0400",
+      "element": "0310",
+      "action": "X"
+    },
+    {
+      "name": "Clinical Trial Coordinating Center Name",
+      "group": "0012",
+      "element": "0060",
+      "action": "Z"
+    },
+    {
+      "name": "Clinical Trial Protocol Ethics Committee Approval Number",
+      "group": "0012",
+      "element": "0082",
+      "action": "X"
+    },
+    {
+      "name": "Clinical Trial Protocol Ethics Committee Name",
+      "group": "0012",
+      "element": "0081",
+      "action": "D"
+    },
+    {
+      "name": "Clinical Trial Protocol ID",
+      "group": "0012",
+      "element": "0020",
+      "action": "D"
+    },
+    {
+      "name": "Clinical Trial Protocol Name",
+      "group": "0012",
+      "element": "0021",
+      "action": "Z"
+    },
+    {
+      "name": "Clinical Trial Series Description",
+      "group": "0012",
+      "element": "0072",
+      "action": "X"
+    },
+    {
+      "name": "Clinical Trial Series ID",
+      "group": "0012",
+      "element": "0071",
+      "action": "X"
+    },
+    {
+      "name": "Clinical Trial Site ID",
+      "group": "0012",
+      "element": "0030",
+      "action": "Z"
+    },
+    {
+      "name": "Clinical Trial Site Name",
+      "group": "0012",
+      "element": "0031",
+      "action": "Z"
+    },
+    {
+      "name": "Clinical Trial Sponsor Name",
+      "group": "0012",
+      "element": "0010",
+      "action": "D"
+    },
+    {
+      "name": "Clinical Trial Subject ID",
+      "group": "0012",
+      "element": "0040",
+      "action": "D"
+    },
+    {
+      "name": "Clinical Trial Subject Reading ID",
+      "group": "0012",
+      "element": "0042",
+      "action": "D"
+    },
+    {
+      "name": "Clinical Trial Time Point Description",
+      "group": "0012",
+      "element": "0051",
+      "action": "X"
+    },
+    {
+      "name": "Clinical Trial Time Point ID",
+      "group": "0012",
+      "element": "0050",
+      "action": "Z"
+    },
+    {
+      "name": "Comments on Radiation Dose",
+      "group": "0040",
+      "element": "0310",
+      "action": "X"
+    },
+    {
+      "name": "Comments on the Performed Procedure Step",
+      "group": "0040",
+      "element": "0280",
+      "action": "X"
+    },
+    {
+      "name": "Compensator Description",
+      "group": "300A",
+      "element": "02EB",
+      "action": "X"
+    },
+    {
+      "name": "Concatenation UID",
+      "group": "0020",
+      "element": "9161",
+      "action": "U"
+    },
+    {
+      "name": "Conceptual Volume Combination Description",
+      "group": "3010",
+      "element": "000F",
+      "action": "Z"
+    },
+    {
+      "name": "Conceptual Volume Description",
+      "group": "3010",
+      "element": "0017",
+      "action": "Z"
+    },
+    {
+      "name": "Conceptual Volume UID",
+      "group": "3010",
+      "element": "0006",
+      "action": "U"
+    },
+    {
+      "name": "Confidentiality Constraint on Patient Data Description",
+      "group": "0040",
+      "element": "3001",
+      "action": "X"
+    },
+    {
+      "name": "Constituent Conceptual Volume UID",
+      "group": "3010",
+      "element": "0013",
+      "action": "U"
+    },
+    {
+      "name": "Consulting Physician's Name",
+      "group": "0008",
+      "element": "009C",
+      "action": "Z"
+    },
+    {
+      "name": "Consulting Physician Identification Sequence",
+      "group": "0008",
+      "element": "009D",
+      "action": "X"
+    },
+    {
+      "name": "Container Component ID",
+      "group": "0050",
+      "element": "001B",
+      "action": "X"
+    },
+    {
+      "name": "Container Description",
+      "group": "0040",
+      "element": "051A",
+      "action": "X"
+    },
+    {
+      "name": "Container Identifier",
+      "group": "0040",
+      "element": "0512",
+      "action": "D"
+    },
+    {
+      "name": "Content Creator's Identification Code Sequence",
+      "group": "0070",
+      "element": "0086",
+      "action": "X"
+    },
+    {
+      "name": "Content Creator's Name",
+      "group": "0070",
+      "element": "0084",
+      "action": "Z/D"
+    },
+    {
+      "name": "Content Date",
+      "group": "0008",
+      "element": "0023",
+      "action": "Z/D"
+    },
+    {
+      "name": "Content Sequence",
+      "group": "0040",
+      "element": "A730",
+      "action": "D"
+    },
+    {
+      "name": "Content Time",
+      "group": "0008",
+      "element": "0033",
+      "action": "Z/D"
+    },
+    {
+      "name": "Context Group Local Version",
+      "group": "0008",
+      "element": "0107",
+      "action": "D"
+    },
+    {
+      "name": "Context Group Version",
+      "group": "0008",
+      "element": "0106",
+      "action": "D"
+    },
+    {
+      "name": "Contrast/Bolus Agent",
+      "group": "0018",
+      "element": "0010",
+      "action": "Z/D"
+    },
+    {
+      "name": "Contrast/Bolus Start Time",
+      "group": "0018",
+      "element": "1042",
+      "action": "X"
+    },
+    {
+      "name": "Contrast/Bolus Stop Time",
+      "group": "0018",
+      "element": "1043",
+      "action": "X"
+    },
+    {
+      "name": "Contribution DateTime",
+      "group": "0018",
+      "element": "A002",
+      "action": "X"
+    },
+    {
+      "name": "Contribution Description",
+      "group": "0018",
+      "element": "A003",
+      "action": "X"
+    },
+    {
+      "name": "Country of Residence",
+      "group": "0010",
+      "element": "2150",
+      "action": "X"
+    },
+    {
+      "name": "Creation Date",
+      "group": "2100",
+      "element": "0040",
+      "action": "X"
+    },
+    {
+      "name": "Creation Time",
+      "group": "2100",
+      "element": "0050",
+      "action": "X"
+    },
+    {
+      "name": "Current Observer (Trial)",
+      "group": "0040",
+      "element": "A307",
+      "action": "X"
+    },
+    {
+      "name": "Current Patient Location",
+      "group": "0038",
+      "element": "0300",
+      "action": "X"
+    },
+    {
+      "name": "Curve Data",
+      "group": "50xx",
+      "element": "xxxx",
+      "action": "X"
+    },
+    {
+      "name": "Curve Date",
+      "group": "0008",
+      "element": "0025",
+      "action": "X"
+    },
+    {
+      "name": "Curve Time",
+      "group": "0008",
+      "element": "0035",
+      "action": "X"
+    },
+    {
+      "name": "Custodial Organization Sequence",
+      "group": "0040",
+      "element": "A07C",
+      "action": "X"
+    },
+    {
+      "name": "Data Set Trailing Padding",
+      "group": "FFFC",
+      "element": "FFFC",
+      "action": "X"
+    },
+    {
+      "name": "Date",
+      "group": "0040",
+      "element": "A121",
+      "action": "D"
+    },
+    {
+      "name": "Date of Document or Verbal Transaction (Trial)",
+      "group": "0040",
+      "element": "A110",
+      "action": "X"
+    },
+    {
+      "name": "Date of Installation",
+      "group": "0018",
+      "element": "1205",
+      "action": "X"
+    },
+    {
+      "name": "Date of Last Calibration",
+      "group": "0018",
+      "element": "1200",
+      "action": "X"
+    },
+    {
+      "name": "Date of Last Detector Calibration",
+      "group": "0018",
+      "element": "700C",
+      "action": "X/D"
+    },
+    {
+      "name": "Date of Manufacture",
+      "group": "0018",
+      "element": "1204",
+      "action": "X"
+    },
+    {
+      "name": "Date of Secondary Capture",
+      "group": "0018",
+      "element": "1012",
+      "action": "X"
+    },
+    {
+      "name": "DateTime",
+      "group": "0040",
+      "element": "A120",
+      "action": "D"
+    },
+    {
+      "name": "DateTime of Last Calibration",
+      "group": "0018",
+      "element": "1202",
+      "action": "X"
+    },
+    {
+      "name": "Decay Correction DateTime",
+      "group": "0018",
+      "element": "9701",
+      "action": "D"
+    },
+    {
+      "name": "Decomposition Description",
+      "group": "0018",
+      "element": "937F",
+      "action": "X"
+    },
+    {
+      "name": "Derivation Description",
+      "group": "0008",
+      "element": "2111",
+      "action": "X"
+    },
+    {
+      "name": "Destination AE",
+      "group": "2100",
+      "element": "0140",
+      "action": "D"
+    },
+    {
+      "name": "Detector ID",
+      "group": "0018",
+      "element": "700A",
+      "action": "X/D"
+    },
+    {
+      "name": "Device Alternate Identifier",
+      "group": "3010",
+      "element": "001B",
+      "action": "Z"
+    },
+    {
+      "name": "Device Description",
+      "group": "0050",
+      "element": "0020",
+      "action": "X"
+    },
+    {
+      "name": "Device Label",
+      "group": "3010",
+      "element": "002D",
+      "action": "D"
+    },
+    {
+      "name": "Device Serial Number",
+      "group": "0018",
+      "element": "1000",
+      "action": "X/Z/D"
+    },
+    {
+      "name": "Device Setting Description",
+      "group": "0016",
+      "element": "004B",
+      "action": "X"
+    },
+    {
+      "name": "Device UID",
+      "group": "0018",
+      "element": "1002",
+      "action": "U"
+    },
+    {
+      "name": "Digital Signature DateTime",
+      "group": "0400",
+      "element": "0105",
+      "action": "D"
+    },
+    {
+      "name": "Digital Signatures Sequence",
+      "group": "FFFA",
+      "element": "FFFA",
+      "action": "X"
+    },
+    {
+      "name": "Digital Signature UID",
+      "group": "0400",
+      "element": "0100",
+      "action": "U"
+    },
+    {
+      "name": "Dimension Organization UID",
+      "group": "0020",
+      "element": "9164",
+      "action": "U"
+    },
+    {
+      "name": "Discharge Date",
+      "group": "0038",
+      "element": "0030",
+      "action": "X"
+    },
+    {
+      "name": "Discharge Diagnosis Description",
+      "group": "0038",
+      "element": "0040",
+      "action": "X"
+    },
+    {
+      "name": "Discharge Time",
+      "group": "0038",
+      "element": "0032",
+      "action": "X"
+    },
+    {
+      "name": "Displacement Reference Label",
+      "group": "300A",
+      "element": "079A",
+      "action": "X"
+    },
+    {
+      "name": "Distribution Address",
+      "group": "4008",
+      "element": "011A",
+      "action": "X"
+    },
+    {
+      "name": "Distribution Name",
+      "group": "4008",
+      "element": "0119",
+      "action": "X"
+    },
+    {
+      "name": "Dose Reference Description",
+      "group": "300A",
+      "element": "0016",
+      "action": "X"
+    },
+    {
+      "name": "Dose Reference UID",
+      "group": "300A",
+      "element": "0013",
+      "action": "U"
+    },
+    {
+      "name": "Dosimetric Objective UID",
+      "group": "3010",
+      "element": "006E",
+      "action": "U"
+    },
+    {
+      "name": "Effective DateTime",
+      "group": "0068",
+      "element": "6226",
+      "action": "D"
+    },
+    {
+      "name": "Encapsulated Document",
+      "group": "0042",
+      "element": "0011",
+      "action": "D"
+    },
+    {
+      "name": "End Acquisition DateTime",
+      "group": "0018",
+      "element": "9517",
+      "action": "X/D"
+    },
+    {
+      "name": "Entity Description",
+      "group": "3010",
+      "element": "0037",
+      "action": "X"
+    },
+    {
+      "name": "Entity Label",
+      "group": "3010",
+      "element": "0035",
+      "action": "D"
+    },
+    {
+      "name": "Entity Long Label",
+      "group": "3010",
+      "element": "0038",
+      "action": "D"
+    },
+    {
+      "name": "Entity Name",
+      "group": "3010",
+      "element": "0036",
+      "action": "X"
+    },
+    {
+      "name": "Equipment Frame of Reference Description",
+      "group": "300A",
+      "element": "0676",
+      "action": "X"
+    },
+    {
+      "name": "Ethics Committee Approval Effectiveness End Date",
+      "group": "0012",
+      "element": "0087",
+      "action": "X"
+    },
+    {
+      "name": "Ethics Committee Approval Effectiveness Start Date",
+      "group": "0012",
+      "element": "0086",
+      "action": "X"
+    },
+    {
+      "name": "Ethnic Group",
+      "group": "0010",
+      "element": "2160",
+      "action": "X"
+    },
+    {
+      "name": ">Ethnic Group Code Sequence",
+      "group": "0010",
+      "element": "2161",
+      "action": "X"
+    },
+    {
+      "name": "Exclusion Start DateTime",
+      "group": "0018",
+      "element": "9804",
+      "action": "D"
+    },
+    {
+      "name": "Expected Completion DateTime",
+      "group": "0040",
+      "element": "4011",
+      "action": "X"
+    },
+    {
+      "name": "Failed SOP Instance UID List",
+      "group": "0008",
+      "element": "0058",
+      "action": "U"
+    },
+    {
+      "name": "Fiducial UID",
+      "group": "0070",
+      "element": "031A",
+      "action": "U"
+    },
+    {
+      "name": "Filler Order Number / Imaging Service Request",
+      "group": "0040",
+      "element": "2017",
+      "action": "Z"
+    },
+    {
+      "name": "Filter Lookup Table Description",
+      "group": "003A",
+      "element": "032B",
+      "action": "X"
+    },
+    {
+      "name": "Findings Group Recording Date (Trial)",
+      "group": "0040",
+      "element": "A023",
+      "action": "X"
+    },
+    {
+      "name": "Findings Group Recording Time (Trial)",
+      "group": "0040",
+      "element": "A024",
+      "action": "X"
+    },
+    {
+      "name": "First Treatment Date",
+      "group": "3008",
+      "element": "0054",
+      "action": "X/D"
+    },
+    {
+      "name": "Fixation Device Description",
+      "group": "300A",
+      "element": "0196",
+      "action": "X"
+    },
+    {
+      "name": "Flow Identifier",
+      "group": "0034",
+      "element": "0002",
+      "action": "D"
+    },
+    {
+      "name": "Flow Identifier Sequence",
+      "group": "0034",
+      "element": "0001",
+      "action": "D"
+    },
+    {
+      "name": "Fractionation Notes",
+      "group": "3010",
+      "element": "007F",
+      "action": "Z"
+    },
+    {
+      "name": "Fraction Group Description",
+      "group": "300A",
+      "element": "0072",
+      "action": "X"
+    },
+    {
+      "name": "Frame Acquisition DateTime",
+      "group": "0018",
+      "element": "9074",
+      "action": "D"
+    },
+    {
+      "name": "Frame Comments",
+      "group": "0020",
+      "element": "9158",
+      "action": "X"
+    },
+    {
+      "name": "Frame of Reference UID",
+      "group": "0020",
+      "element": "0052",
+      "action": "U"
+    },
+    {
+      "name": "Frame Origin Timestamp",
+      "group": "0034",
+      "element": "0007",
+      "action": "D"
+    },
+    {
+      "name": "Frame Reference DateTime",
+      "group": "0018",
+      "element": "9151",
+      "action": "D"
+    },
+    {
+      "name": "Functional Sync Pulse",
+      "group": "0018",
+      "element": "9623",
+      "action": "D"
+    },
+    {
+      "name": "Gantry ID",
+      "group": "0018",
+      "element": "1008",
+      "action": "X"
+    },
+    {
+      "name": "Generator ID",
+      "group": "0018",
+      "element": "1005",
+      "action": "X"
+    },
+    {
+      "name": "GPS Altitude​",
+      "group": "0016",
+      "element": "0076",
+      "action": "X"
+    },
+    {
+      "name": "GPS Altitude​ Ref",
+      "group": "0016",
+      "element": "0075",
+      "action": "X"
+    },
+    {
+      "name": "GPS Area ​Information",
+      "group": "0016",
+      "element": "008C",
+      "action": "X"
+    },
+    {
+      "name": "GPS Date​ Stamp",
+      "group": "0016",
+      "element": "008D",
+      "action": "X"
+    },
+    {
+      "name": "GPS Dest ​Bearing",
+      "group": "0016",
+      "element": "0088",
+      "action": "X"
+    },
+    {
+      "name": "GPS Dest​ Bearing Ref",
+      "group": "0016",
+      "element": "0087",
+      "action": "X"
+    },
+    {
+      "name": "GPS Dest ​Distance",
+      "group": "0016",
+      "element": "008A",
+      "action": "X"
+    },
+    {
+      "name": "GPS Dest ​Distance Ref",
+      "group": "0016",
+      "element": "0089",
+      "action": "X"
+    },
+    {
+      "name": "GPS Dest​ Latitude",
+      "group": "0016",
+      "element": "0084",
+      "action": "X"
+    },
+    {
+      "name": "GPS Dest​ Latitude Ref",
+      "group": "0016",
+      "element": "0083",
+      "action": "X"
+    },
+    {
+      "name": "GPS Dest ​Longitude",
+      "group": "0016",
+      "element": "0086",
+      "action": "X"
+    },
+    {
+      "name": "GPS Dest ​Longitude Ref",
+      "group": "0016",
+      "element": "0085",
+      "action": "X"
+    },
+    {
+      "name": "GPS Differential",
+      "group": "0016",
+      "element": "008E",
+      "action": "X"
+    },
+    {
+      "name": "GPS DOP",
+      "group": "0016",
+      "element": "007B",
+      "action": "X"
+    },
+    {
+      "name": "GPS Img ​Direction",
+      "group": "0016",
+      "element": "0081",
+      "action": "X"
+    },
+    {
+      "name": "GPS Img​ Direction Ref",
+      "group": "0016",
+      "element": "0080",
+      "action": "X"
+    },
+    {
+      "name": "GPS Latitude​",
+      "group": "0016",
+      "element": "0072",
+      "action": "X"
+    },
+    {
+      "name": "GPS Latitude​ Ref",
+      "group": "0016",
+      "element": "0071",
+      "action": "X"
+    },
+    {
+      "name": "GPS Longitude",
+      "group": "0016",
+      "element": "0074",
+      "action": "X"
+    },
+    {
+      "name": "GPS Longitude Ref",
+      "group": "0016",
+      "element": "0073",
+      "action": "X"
+    },
+    {
+      "name": "GPS Map​ Datum",
+      "group": "0016",
+      "element": "0082",
+      "action": "X"
+    },
+    {
+      "name": "GPS Measure ​Mode",
+      "group": "0016",
+      "element": "007A",
+      "action": "X"
+    },
+    {
+      "name": "GPS Processing​ Method",
+      "group": "0016",
+      "element": "008B",
+      "action": "X"
+    },
+    {
+      "name": "GPS Satellites",
+      "group": "0016",
+      "element": "0078",
+      "action": "X"
+    },
+    {
+      "name": "GPS Speed​",
+      "group": "0016",
+      "element": "007D",
+      "action": "X"
+    },
+    {
+      "name": "GPS Speed​ Ref",
+      "group": "0016",
+      "element": "007C",
+      "action": "X"
+    },
+    {
+      "name": "GPS Status",
+      "group": "0016",
+      "element": "0079",
+      "action": "X"
+    },
+    {
+      "name": "GPS Time​ Stamp",
+      "group": "0016",
+      "element": "0077",
+      "action": "X"
+    },
+    {
+      "name": "GPS Track",
+      "group": "0016",
+      "element": "007F",
+      "action": "X"
+    },
+    {
+      "name": "GPS Track ​Ref",
+      "group": "0016",
+      "element": "007E",
+      "action": "X"
+    },
+    {
+      "name": "GPS Version ID",
+      "group": "0016",
+      "element": "0070",
+      "action": "X"
+    },
+    {
+      "name": "Graphic Annotation Sequence",
+      "group": "0070",
+      "element": "0001",
+      "action": "D"
+    },
+    {
+      "name": "Hanging Protocol Creation DateTime",
+      "group": "0072",
+      "element": "000A",
+      "action": "D"
+    },
+    {
+      "name": "HL7 Document Effective Time",
+      "group": "0040",
+      "element": "E004",
+      "action": "X"
+    },
+    {
+      "name": "Human Performer's Name",
+      "group": "0040",
+      "element": "4037",
+      "action": "X"
+    },
+    {
+      "name": "Human Performer's Organization",
+      "group": "0040",
+      "element": "4036",
+      "action": "X"
+    },
+    {
+      "name": "Icon Image Sequence(see Note 11)",
+      "group": "0088",
+      "element": "0200",
+      "action": "X"
+    },
+    {
+      "name": "Identifying Comments",
+      "group": "0008",
+      "element": "4000",
+      "action": "X"
+    },
+    {
+      "name": "Image Comments",
+      "group": "0020",
+      "element": "4000",
+      "action": "X"
+    },
+    {
+      "name": "Image Presentation Comments",
+      "group": "0028",
+      "element": "4000",
+      "action": "X"
+    },
+    {
+      "name": "Imaging Service Request Comments",
+      "group": "0040",
+      "element": "2400",
+      "action": "X"
+    },
+    {
+      "name": "Impedance Measurement DateTime",
+      "group": "003A",
+      "element": "0314",
+      "action": "D"
+    },
+    {
+      "name": "Impressions",
+      "group": "4008",
+      "element": "0300",
+      "action": "X"
+    },
+    {
+      "name": "Information Issue DateTime",
+      "group": "0068",
+      "element": "6270",
+      "action": "D"
+    },
+    {
+      "name": "Instance Coercion DateTime",
+      "group": "0008",
+      "element": "0015",
+      "action": "X"
+    },
+    {
+      "name": "Instance Creation Date",
+      "group": "0008",
+      "element": "0012",
+      "action": "X/D"
+    },
+    {
+      "name": "Instance Creation Time",
+      "group": "0008",
+      "element": "0013",
+      "action": "X/Z/D"
+    },
+    {
+      "name": "Instance Creator UID",
+      "group": "0008",
+      "element": "0014",
+      "action": "U"
+    },
+    {
+      "name": "Instance Origin Status",
+      "group": "0400",
+      "element": "0600",
+      "action": "X"
+    },
+    {
+      "name": "Institution Address",
+      "group": "0008",
+      "element": "0081",
+      "action": "X"
+    },
+    {
+      "name": "Institutional Department Name",
+      "group": "0008",
+      "element": "1040",
+      "action": "X"
+    },
+    {
+      "name": "Institutional Department Type Code Sequence",
+      "group": "0008",
+      "element": "1041",
+      "action": "X"
+    },
+    {
+      "name": "Institution Code Sequence",
+      "group": "0008",
+      "element": "0082",
+      "action": "X/Z/D"
+    },
+    {
+      "name": "Institution Name",
+      "group": "0008",
+      "element": "0080",
+      "action": "X/Z/D"
+    },
+    {
+      "name": "Instruction Performed DateTime",
+      "group": "0018",
+      "element": "9919",
+      "action": "Z/D"
+    },
+    {
+      "name": "Insurance Plan Identification",
+      "group": "0010",
+      "element": "1050",
+      "action": "X"
+    },
+    {
+      "name": "Intended Fraction Start Time",
+      "group": "3010",
+      "element": "0085",
+      "action": "X"
+    },
+    {
+      "name": "Intended Phase End Date",
+      "group": "3010",
+      "element": "004D",
+      "action": "X/D"
+    },
+    {
+      "name": "Intended Phase Start Date",
+      "group": "3010",
+      "element": "004C",
+      "action": "X/D"
+    },
+    {
+      "name": "Intended Recipients of Results Identification Sequence",
+      "group": "0040",
+      "element": "1011",
+      "action": "X"
+    },
+    {
+      "name": "Interlock DateTime",
+      "group": "300A",
+      "element": "0741",
+      "action": "D"
+    },
+    {
+      "name": "Interlock Description",
+      "group": "300A",
+      "element": "0742",
+      "action": "D"
+    },
+    {
+      "name": "Interlock Origin Description",
+      "group": "300A",
+      "element": "0783",
+      "action": "D"
+    },
+    {
+      "name": "Interpretation Approval Date",
+      "group": "4008",
+      "element": "0112",
+      "action": "X"
+    },
+    {
+      "name": "Interpretation Approval Time",
+      "group": "4008",
+      "element": "0113",
+      "action": "X"
+    },
+    {
+      "name": "Interpretation Approver Sequence",
+      "group": "4008",
+      "element": "0111",
+      "action": "X"
+    },
+    {
+      "name": "Interpretation Author",
+      "group": "4008",
+      "element": "010C",
+      "action": "X"
+    },
+    {
+      "name": "Interpretation Diagnosis Description",
+      "group": "4008",
+      "element": "0115",
+      "action": "X"
+    },
+    {
+      "name": "Interpretation ID",
+      "group": "4008",
+      "element": "0200",
+      "action": "X"
+    },
+    {
+      "name": "Interpretation ID Issuer",
+      "group": "4008",
+      "element": "0202",
+      "action": "X"
+    },
+    {
+      "name": "Interpretation Recorded Date",
+      "group": "4008",
+      "element": "0100",
+      "action": "X"
+    },
+    {
+      "name": "Interpretation Recorded Time",
+      "group": "4008",
+      "element": "0101",
+      "action": "X"
+    },
+    {
+      "name": "Interpretation Recorder",
+      "group": "4008",
+      "element": "0102",
+      "action": "X"
+    },
+    {
+      "name": "Interpretation Text",
+      "group": "4008",
+      "element": "010B",
+      "action": "X"
+    },
+    {
+      "name": "Interpretation Transcriber",
+      "group": "4008",
+      "element": "010A",
+      "action": "X"
+    },
+    {
+      "name": "Interpretation Transcription Date",
+      "group": "4008",
+      "element": "0108",
+      "action": "X"
+    },
+    {
+      "name": "Interpretation Transcription Time",
+      "group": "4008",
+      "element": "0109",
+      "action": "X"
+    },
+    {
+      "name": "Intervention Drug Start Time",
+      "group": "0018",
+      "element": "0035",
+      "action": "X"
+    },
+    {
+      "name": "Intervention Drug Stop Time",
+      "group": "0018",
+      "element": "0027",
+      "action": "X"
+    },
+    {
+      "name": "Irradiation Event UID",
+      "group": "0008",
+      "element": "3010",
+      "action": "U"
+    },
+    {
+      "name": "Issue Date of Imaging Service Request",
+      "group": "0040",
+      "element": "2004",
+      "action": "X"
+    },
+    {
+      "name": "Issuer of Admission ID",
+      "group": "0038",
+      "element": "0011",
+      "action": "X"
+    },
+    {
+      "name": "Issuer of Admission ID Sequence",
+      "group": "0038",
+      "element": "0014",
+      "action": "X"
+    },
+    {
+      "name": "Issuer of Clinical Trial Protocol ID",
+      "group": "0012",
+      "element": "0022",
+      "action": "X"
+    },
+    {
+      "name": "Issuer of Clinical Trial Series ID",
+      "group": "0012",
+      "element": "0073",
+      "action": "X"
+    },
+    {
+      "name": "Issuer of Clinical Trial Site ID",
+      "group": "0012",
+      "element": "0032",
+      "action": "X"
+    },
+    {
+      "name": "Issuer of Clinical Trial Subject ID",
+      "group": "0012",
+      "element": "0041",
+      "action": "X"
+    },
+    {
+      "name": "Issuer of Clinical Trial Subject Reading ID",
+      "group": "0012",
+      "element": "0043",
+      "action": "X"
+    },
+    {
+      "name": "Issuer of Clinical Trial Time Point ID",
+      "group": "0012",
+      "element": "0055",
+      "action": "X"
+    },
+    {
+      "name": "Issuer of Patient ID",
+      "group": "0010",
+      "element": "0021",
+      "action": "X"
+    },
+    {
+      "name": "Issuer of Service Episode ID",
+      "group": "0038",
+      "element": "0061",
+      "action": "X"
+    },
+    {
+      "name": "Issuer of Service Episode ID Sequence",
+      "group": "0038",
+      "element": "0064",
+      "action": "X"
+    },
+    {
+      "name": "Issuer of the Container Identifier Sequence",
+      "group": "0040",
+      "element": "0513",
+      "action": "Z"
+    },
+    {
+      "name": "Issuer of the Specimen Identifier Sequence",
+      "group": "0040",
+      "element": "0562",
+      "action": "Z"
+    },
+    {
+      "name": "Issue Time of Imaging Service Request",
+      "group": "0040",
+      "element": "2005",
+      "action": "X"
+    },
+    {
+      "name": "Label Text",
+      "group": "2200",
+      "element": "0002",
+      "action": "X/Z"
+    },
+    {
+      "name": "Large Palette Color Lookup Table UID",
+      "group": "0028",
+      "element": "1214",
+      "action": "U"
+    },
+    {
+      "name": "Last Menstrual Date",
+      "group": "0010",
+      "element": "21D0",
+      "action": "X"
+    },
+    {
+      "name": "Lens Make",
+      "group": "0016",
+      "element": "004F",
+      "action": "X"
+    },
+    {
+      "name": "Lens Model",
+      "group": "0016",
+      "element": "0050",
+      "action": "X"
+    },
+    {
+      "name": "Lens Serial Number",
+      "group": "0016",
+      "element": "0051",
+      "action": "X"
+    },
+    {
+      "name": "Lens Specification",
+      "group": "0016",
+      "element": "004E",
+      "action": "X"
+    },
+    {
+      "name": "Long Device Description",
+      "group": "0050",
+      "element": "0021",
+      "action": "X"
+    },
+    {
+      "name": "MAC",
+      "group": "0400",
+      "element": "0404",
+      "action": "X"
+    },
+    {
+      "name": "Maker Note",
+      "group": "0016",
+      "element": "002B",
+      "action": "X"
+    },
+    {
+      "name": "Manufacturer's Device Class UID",
+      "group": "0018",
+      "element": "100B",
+      "action": "U"
+    },
+    {
+      "name": "Manufacturer's Device Identifier",
+      "group": "3010",
+      "element": "0043",
+      "action": "Z"
+    },
+    {
+      "name": "Media Storage SOP Instance UID",
+      "group": "0002",
+      "element": "0003",
+      "action": "U"
+    },
+    {
+      "name": "Medical Alerts",
+      "group": "0010",
+      "element": "2000",
+      "action": "X"
+    },
+    {
+      "name": "Medical Record Locator",
+      "group": "0010",
+      "element": "1090",
+      "action": "X"
+    },
+    {
+      "name": "Military Rank",
+      "group": "0010",
+      "element": "1080",
+      "action": "X"
+    },
+    {
+      "name": "Modified Attributes Sequence",
+      "group": "0400",
+      "element": "0550",
+      "action": "X"
+    },
+    {
+      "name": "Modified Image Date",
+      "group": "0020",
+      "element": "3403",
+      "action": "X"
+    },
+    {
+      "name": "Modified Image Description",
+      "group": "0020",
+      "element": "3406",
+      "action": "X"
+    },
+    {
+      "name": "Modified Image Time",
+      "group": "0020",
+      "element": "3405",
+      "action": "X"
+    },
+    {
+      "name": "Modifying Device ID",
+      "group": "0020",
+      "element": "3401",
+      "action": "X"
+    },
+    {
+      "name": "Modifying System",
+      "group": "0400",
+      "element": "0563",
+      "action": "D"
+    },
+    {
+      "name": "Most Recent Treatment Date",
+      "group": "3008",
+      "element": "0056",
+      "action": "X/D"
+    },
+    {
+      "name": "Multi-energy Acquisition Description",
+      "group": "0018",
+      "element": "937B",
+      "action": "X"
+    },
+    {
+      "name": "Multiplex Group UID",
+      "group": "003A",
+      "element": "0310",
+      "action": "U"
+    },
+    {
+      "name": "Name of Physician(s) Reading Study",
+      "group": "0008",
+      "element": "1060",
+      "action": "X"
+    },
+    {
+      "name": "Names of Intended Recipients of Results",
+      "group": "0040",
+      "element": "1010",
+      "action": "X"
+    },
+    {
+      "name": "Network ID",
+      "group": "0008",
+      "element": "1000",
+      "action": "X"
+    },
+    {
+      "name": "Nonconforming Data Element Value",
+      "group": "0400",
+      "element": "0552",
+      "action": "X"
+    },
+    {
+      "name": "Nonconforming Modified Attributes Sequence",
+      "group": "0400",
+      "element": "0551",
+      "action": "X"
+    },
+    {
+      "name": "Observation Date (Trial)",
+      "group": "0040",
+      "element": "A192",
+      "action": "X"
+    },
+    {
+      "name": "Observation DateTime",
+      "group": "0040",
+      "element": "A032",
+      "action": "X/D"
+    },
+    {
+      "name": "Observation Start DateTime",
+      "group": "0040",
+      "element": "A033",
+      "action": "X"
+    },
+    {
+      "name": "Observation Subject UID (Trial)",
+      "group": "0040",
+      "element": "A402",
+      "action": "U"
+    },
+    {
+      "name": "Observation Time (Trial)",
+      "group": "0040",
+      "element": "A193",
+      "action": "X"
+    },
+    {
+      "name": "Observation UID",
+      "group": "0040",
+      "element": "A171",
+      "action": "U"
+    },
+    {
+      "name": "Occupation",
+      "group": "0010",
+      "element": "2180",
+      "action": "X"
+    },
+    {
+      "name": "Operator Identification Sequence",
+      "group": "0008",
+      "element": "1072",
+      "action": "X/D"
+    },
+    {
+      "name": "Operators' Name",
+      "group": "0008",
+      "element": "1070",
+      "action": "X/Z/D"
+    },
+    {
+      "name": "Order Callback Phone Number",
+      "group": "0040",
+      "element": "2010",
+      "action": "X"
+    },
+    {
+      "name": "Order Callback Telecom Information",
+      "group": "0040",
+      "element": "2011",
+      "action": "X"
+    },
+    {
+      "name": "Order Entered By",
+      "group": "0040",
+      "element": "2008",
+      "action": "X"
+    },
+    {
+      "name": "Order Enterer's Location",
+      "group": "0040",
+      "element": "2009",
+      "action": "X"
+    },
+    {
+      "name": "Original Attributes Sequence",
+      "group": "0400",
+      "element": "0561",
+      "action": "X"
+    },
+    {
+      "name": "Originator",
+      "group": "2100",
+      "element": "0070",
+      "action": "X"
+    },
+    {
+      "name": "Other Clinical Trial Protocol IDs Sequence",
+      "group": "0012",
+      "element": "0023",
+      "action": "X"
+    },
+    {
+      "name": "Other Patient IDs",
+      "group": "0010",
+      "element": "1000",
+      "action": "X"
+    },
+    {
+      "name": "Other Patient IDs Sequence",
+      "group": "0010",
+      "element": "1002",
+      "action": "X"
+    },
+    {
+      "name": "Other Patient Names",
+      "group": "0010",
+      "element": "1001",
+      "action": "X"
+    },
+    {
+      "name": "Overlay Comments",
+      "group": "60xx",
+      "element": "4000",
+      "action": "X"
+    },
+    {
+      "name": "Overlay Data",
+      "group": "60xx",
+      "element": "3000",
+      "action": "X"
+    },
+    {
+      "name": "Overlay Date",
+      "group": "0008",
+      "element": "0024",
+      "action": "X"
+    },
+    {
+      "name": "Overlay Time",
+      "group": "0008",
+      "element": "0034",
+      "action": "X"
+    },
+    {
+      "name": "Override DateTime",
+      "group": "300A",
+      "element": "0760",
+      "action": "D"
+    },
+    {
+      "name": "Palette Color Lookup Table UID",
+      "group": "0028",
+      "element": "1199",
+      "action": "U"
+    },
+    {
+      "name": "Participant Sequence",
+      "group": "0040",
+      "element": "A07A",
+      "action": "X"
+    },
+    {
+      "name": "Participation DateTime",
+      "group": "0040",
+      "element": "A082",
+      "action": "Z"
+    },
+    {
+      "name": "Patient's Address",
+      "group": "0010",
+      "element": "1040",
+      "action": "X"
+    },
+    {
+      "name": "Patient's Age",
+      "group": "0010",
+      "element": "1010",
+      "action": "X"
+    },
+    {
+      "name": "Patient's Birth Date",
+      "group": "0010",
+      "element": "0030",
+      "action": "Z"
+    },
+    {
+      "name": "Patient's Birth Name",
+      "group": "0010",
+      "element": "1005",
+      "action": "X"
+    },
+    {
+      "name": "Patient's Birth Time",
+      "group": "0010",
+      "element": "0032",
+      "action": "X"
+    },
+    {
+      "name": "Patient's Institution Residence",
+      "group": "0038",
+      "element": "0400",
+      "action": "X"
+    },
+    {
+      "name": "Patient's Insurance Plan Code Sequence",
+      "group": "0010",
+      "element": "0050",
+      "action": "X"
+    },
+    {
+      "name": "Patient's Mother's Birth Name",
+      "group": "0010",
+      "element": "1060",
+      "action": "X"
+    },
+    {
+      "name": "Patient's Name",
+      "group": "0010",
+      "element": "0010",
+      "action": "Z"
+    },
+    {
+      "name": "Patient's Primary Language Code Sequence",
+      "group": "0010",
+      "element": "0101",
+      "action": "X"
+    },
+    {
+      "name": "Patient's Primary Language Modifier Code Sequence",
+      "group": "0010",
+      "element": "0102",
+      "action": "X"
+    },
+    {
+      "name": "Patient's Religious Preference",
+      "group": "0010",
+      "element": "21F0",
+      "action": "X"
+    },
+    {
+      "name": "Patient's Sex",
+      "group": "0010",
+      "element": "0040",
+      "action": "Z"
+    },
+    {
+      "name": "Patient's Sex Neutered",
+      "group": "0010",
+      "element": "2203",
+      "action": "X/Z"
+    },
+    {
+      "name": "Patient's Size",
+      "group": "0010",
+      "element": "1020",
+      "action": "X"
+    },
+    {
+      "name": "Patient's Telecom Information",
+      "group": "0010",
+      "element": "2155",
+      "action": "X"
+    },
+    {
+      "name": "Patient's Telephone Numbers",
+      "group": "0010",
+      "element": "2154",
+      "action": "X"
+    },
+    {
+      "name": "Patient's Weight",
+      "group": "0010",
+      "element": "1030",
+      "action": "X"
+    },
+    {
+      "name": "Patient Comments",
+      "group": "0010",
+      "element": "4000",
+      "action": "X"
+    },
+    {
+      "name": "Patient ID",
+      "group": "0010",
+      "element": "0020",
+      "action": "Z/D"
+    },
+    {
+      "name": "Patient Setup Photo Description",
+      "group": "300A",
+      "element": "0794",
+      "action": "X"
+    },
+    {
+      "name": "Patient Setup UID",
+      "group": "300A",
+      "element": "0650",
+      "action": "U"
+    },
+    {
+      "name": "Patient State",
+      "group": "0038",
+      "element": "0500",
+      "action": "X"
+    },
+    {
+      "name": "Patient Transport Arrangements",
+      "group": "0040",
+      "element": "1004",
+      "action": "X"
+    },
+    {
+      "name": "Patient Treatment Preparation Method Description",
+      "group": "300A",
+      "element": "0792",
+      "action": "X"
+    },
+    {
+      "name": "Patient Treatment Preparation Procedure Parameter Description",
+      "group": "300A",
+      "element": "078E",
+      "action": "X"
+    },
+    {
+      "name": "Performed Location",
+      "group": "0040",
+      "element": "0243",
+      "action": "X"
+    },
+    {
+      "name": "Performed Procedure Step Description",
+      "group": "0040",
+      "element": "0254",
+      "action": "X"
+    },
+    {
+      "name": "Performed Procedure Step End Date",
+      "group": "0040",
+      "element": "0250",
+      "action": "X"
+    },
+    {
+      "name": "Performed Procedure Step End DateTime",
+      "group": "0040",
+      "element": "4051",
+      "action": "X"
+    },
+    {
+      "name": "Performed Procedure Step End Time",
+      "group": "0040",
+      "element": "0251",
+      "action": "X"
+    },
+    {
+      "name": "Performed Procedure Step ID",
+      "group": "0040",
+      "element": "0253",
+      "action": "X"
+    },
+    {
+      "name": "Performed Procedure Step Start Date",
+      "group": "0040",
+      "element": "0244",
+      "action": "X"
+    },
+    {
+      "name": "Performed Procedure Step Start DateTime",
+      "group": "0040",
+      "element": "4050",
+      "action": "X"
+    },
+    {
+      "name": "Performed Procedure Step Start Time",
+      "group": "0040",
+      "element": "0245",
+      "action": "X"
+    },
+    {
+      "name": "Performed Station AE Title",
+      "group": "0040",
+      "element": "0241",
+      "action": "X"
+    },
+    {
+      "name": "Performed Station Geographic Location Code Sequence",
+      "group": "0040",
+      "element": "4030",
+      "action": "X"
+    },
+    {
+      "name": "Performed Station Name",
+      "group": "0040",
+      "element": "0242",
+      "action": "X"
+    },
+    {
+      "name": "Performed Station Name Code Sequence",
+      "group": "0040",
+      "element": "4028",
+      "action": "X"
+    },
+    {
+      "name": "Performing Physician's Name",
+      "group": "0008",
+      "element": "1050",
+      "action": "X"
+    },
+    {
+      "name": "Performing Physician Identification Sequence",
+      "group": "0008",
+      "element": "1052",
+      "action": "X"
+    },
+    {
+      "name": "Person's Address",
+      "group": "0040",
+      "element": "1102",
+      "action": "X"
+    },
+    {
+      "name": "Person's Telecom Information",
+      "group": "0040",
+      "element": "1104",
+      "action": "X"
+    },
+    {
+      "name": "Person's Telephone Numbers",
+      "group": "0040",
+      "element": "1103",
+      "action": "X"
+    },
+    {
+      "name": "Person Identification Code Sequence",
+      "group": "0040",
+      "element": "1101",
+      "action": "D"
+    },
+    {
+      "name": "Person Name",
+      "group": "0040",
+      "element": "A123",
+      "action": "D"
+    },
+    {
+      "name": "Physician(s) of Record",
+      "group": "0008",
+      "element": "1048",
+      "action": "X"
+    },
+    {
+      "name": "Physician(s) of Record Identification Sequence",
+      "group": "0008",
+      "element": "1049",
+      "action": "X"
+    },
+    {
+      "name": "Physician(s) Reading Study Identification Sequence",
+      "group": "0008",
+      "element": "1062",
+      "action": "X"
+    },
+    {
+      "name": "Physician Approving Interpretation",
+      "group": "4008",
+      "element": "0114",
+      "action": "X"
+    },
+    {
+      "name": "Placer Order Number / Imaging Service Request",
+      "group": "0040",
+      "element": "2016",
+      "action": "Z"
+    },
+    {
+      "name": "Plate ID",
+      "group": "0018",
+      "element": "1004",
+      "action": "X"
+    },
+    {
+      "name": "Position Acquisition Template Description",
+      "group": "3002",
+      "element": "0123",
+      "action": "X"
+    },
+    {
+      "name": "Position Acquisition Template Name",
+      "group": "3002",
+      "element": "0121",
+      "action": "X"
+    },
+    {
+      "name": "Pregnancy Status",
+      "group": "0010",
+      "element": "21C0",
+      "action": "X"
+    },
+    {
+      "name": "Pre-Medication",
+      "group": "0040",
+      "element": "0012",
+      "action": "X"
+    },
+    {
+      "name": "Prescription Description",
+      "group": "300A",
+      "element": "000E",
+      "action": "X"
+    },
+    {
+      "name": "Prescription Notes",
+      "group": "3010",
+      "element": "007B",
+      "action": "Z"
+    },
+    {
+      "name": "Prescription Notes Sequence",
+      "group": "3010",
+      "element": "0081",
+      "action": "Z"
+    },
+    {
+      "name": "Presentation Creation Date",
+      "group": "0070",
+      "element": "0082",
+      "action": "X"
+    },
+    {
+      "name": "Presentation Creation Time",
+      "group": "0070",
+      "element": "0083",
+      "action": "X"
+    },
+    {
+      "name": "Presentation Display Collection UID",
+      "group": "0070",
+      "element": "1101",
+      "action": "U"
+    },
+    {
+      "name": "Presentation Sequence Collection UID",
+      "group": "0070",
+      "element": "1102",
+      "action": "U"
+    },
+    {
+      "name": "Prior Treatment Dose Description",
+      "group": "3010",
+      "element": "0061",
+      "action": "X"
+    },
+    {
+      "name": "Private Attributes",
+      "group": "gggg",
+      "element": "eeee",
+      "action": "X"
+    },
+    {
+      "name": "Procedure Step Cancellation DateTime",
+      "group": "0040",
+      "element": "4052",
+      "action": "X"
+    },
+    {
+      "name": "Product Expiration DateTime",
+      "group": "0044",
+      "element": "000B",
+      "action": "X"
+    },
+    {
+      "name": "Protocol Name",
+      "group": "0018",
+      "element": "1030",
+      "action": "X/D"
+    },
+    {
+      "name": "Pyramid Description",
+      "group": "0008",
+      "element": "1088",
+      "action": "X"
+    },
+    {
+      "name": "Pyramid Label",
+      "group": "0020",
+      "element": "0027",
+      "action": "X"
+    },
+    {
+      "name": "Pyramid UID",
+      "group": "0008",
+      "element": "0019",
+      "action": "U"
+    },
+    {
+      "name": "Radiation Dose Identification Label",
+      "group": "300A",
+      "element": "0619",
+      "action": "D"
+    },
+    {
+      "name": "Radiation Dose In-Vivo Measurement Label",
+      "group": "300A",
+      "element": "0623",
+      "action": "D"
+    },
+    {
+      "name": "Radiation Generation Mode Description",
+      "group": "300A",
+      "element": "067D",
+      "action": "Z"
+    },
+    {
+      "name": "Radiation Generation Mode Label",
+      "group": "300A",
+      "element": "067C",
+      "action": "D"
+    },
+    {
+      "name": "Radiopharmaceutical Start DateTime",
+      "group": "0018",
+      "element": "1078",
+      "action": "X"
+    },
+    {
+      "name": "Radiopharmaceutical Start Time",
+      "group": "0018",
+      "element": "1072",
+      "action": "X"
+    },
+    {
+      "name": "Radiopharmaceutical Stop DateTime",
+      "group": "0018",
+      "element": "1079",
+      "action": "X"
+    },
+    {
+      "name": "Radiopharmaceutical Stop Time",
+      "group": "0018",
+      "element": "1073",
+      "action": "X"
+    },
+    {
+      "name": "Reason for Omission Description",
+      "group": "300C",
+      "element": "0113",
+      "action": "X"
+    },
+    {
+      "name": "Reason for Requested Procedure Code Sequence",
+      "group": "0040",
+      "element": "100A",
+      "action": "X"
+    },
+    {
+      "name": "Reason for Study",
+      "group": "0032",
+      "element": "1030",
+      "action": "X"
+    },
+    {
+      "name": "Reason for Superseding",
+      "group": "3010",
+      "element": "005C",
+      "action": "Z"
+    },
+    {
+      "name": "Reason for the Attribute Modification",
+      "group": "0400",
+      "element": "0565",
+      "action": "D"
+    },
+    {
+      "name": "Reason for the Imaging Service Request",
+      "group": "0040",
+      "element": "2001",
+      "action": "X"
+    },
+    {
+      "name": "Reason for the Requested Procedure",
+      "group": "0040",
+      "element": "1002",
+      "action": "X"
+    },
+    {
+      "name": "Reason for Visit",
+      "group": "0032",
+      "element": "1066",
+      "action": "X"
+    },
+    {
+      "name": "Reason for Visit Code Sequence",
+      "group": "0032",
+      "element": "1067",
+      "action": "X"
+    },
+    {
+      "name": "Receiving AE",
+      "group": "0074",
+      "element": "1234",
+      "action": "X"
+    },
+    {
+      "name": "Recorded RT Control Point DateTime",
+      "group": "300A",
+      "element": "073A",
+      "action": "D"
+    },
+    {
+      "name": "Referenced Conceptual Volume UID",
+      "group": "3010",
+      "element": "000B",
+      "action": "U"
+    },
+    {
+      "name": "Referenced DateTime",
+      "group": "0040",
+      "element": "A13A",
+      "action": "D"
+    },
+    {
+      "name": "Referenced Digital Signature Sequence",
+      "group": "0400",
+      "element": "0402",
+      "action": "X"
+    },
+    {
+      "name": "Referenced Dose Reference UID",
+      "group": "300A",
+      "element": "0083",
+      "action": "U"
+    },
+    {
+      "name": "Referenced Dosimetric Objective UID",
+      "group": "3010",
+      "element": "006F",
+      "action": "U"
+    },
+    {
+      "name": "Referenced Fiducials UID",
+      "group": "3010",
+      "element": "0031",
+      "action": "U"
+    },
+    {
+      "name": "Referenced Frame of Reference UID",
+      "group": "3006",
+      "element": "0024",
+      "action": "U"
+    },
+    {
+      "name": "Referenced General Purpose Scheduled Procedure Step Transaction UID",
+      "group": "0040",
+      "element": "4023",
+      "action": "U"
+    },
+    {
+      "name": "Referenced Image Sequence",
+      "group": "0008",
+      "element": "1140",
+      "action": "X/Z/U*"
+    },
+    {
+      "name": "Referenced Observation UID (Trial)",
+      "group": "0040",
+      "element": "A172",
+      "action": "U"
+    },
+    {
+      "name": "Referenced Patient Alias Sequence",
+      "group": "0038",
+      "element": "0004",
+      "action": "X"
+    },
+    {
+      "name": "Referenced Patient Photo Sequence",
+      "group": "0010",
+      "element": "1100",
+      "action": "X"
+    },
+    {
+      "name": "Referenced Patient Sequence",
+      "group": "0008",
+      "element": "1120",
+      "action": "X"
+    },
+    {
+      "name": "Referenced Performed Procedure Step Sequence",
+      "group": "0008",
+      "element": "1111",
+      "action": "X/Z/D"
+    },
+    {
+      "name": "Referenced SOP Instance MAC Sequence",
+      "group": "0400",
+      "element": "0403",
+      "action": "X"
+    },
+    {
+      "name": "Referenced SOP Instance UID",
+      "group": "0008",
+      "element": "1155",
+      "action": "U"
+    },
+    {
+      "name": "Referenced SOP Instance UID in File",
+      "group": "0004",
+      "element": "1511",
+      "action": "U"
+    },
+    {
+      "name": "Referenced Study Sequence",
+      "group": "0008",
+      "element": "1110",
+      "action": "X/Z"
+    },
+    {
+      "name": "Referenced Treatment Position Group UID",
+      "group": "300A",
+      "element": "0785",
+      "action": "U"
+    },
+    {
+      "name": "Referring Physician's Address",
+      "group": "0008",
+      "element": "0092",
+      "action": "X"
+    },
+    {
+      "name": "Referring Physician's Name",
+      "group": "0008",
+      "element": "0090",
+      "action": "Z"
+    },
+    {
+      "name": "Referring Physician's Telephone Numbers",
+      "group": "0008",
+      "element": "0094",
+      "action": "X"
+    },
+    {
+      "name": "Referring Physician Identification Sequence",
+      "group": "0008",
+      "element": "0096",
+      "action": "X"
+    },
+    {
+      "name": "Region of Residence",
+      "group": "0010",
+      "element": "2152",
+      "action": "X"
+    },
+    {
+      "name": "Related Frame of Reference UID",
+      "group": "3006",
+      "element": "00C2",
+      "action": "U"
+    },
+    {
+      "name": "Request Attributes Sequence",
+      "group": "0040",
+      "element": "0275",
+      "action": "X"
+    },
+    {
+      "name": "Requested Contrast Agent",
+      "group": "0032",
+      "element": "1070",
+      "action": "X"
+    },
+    {
+      "name": "Requested Procedure Comments",
+      "group": "0040",
+      "element": "1400",
+      "action": "X"
+    },
+    {
+      "name": "Requested Procedure Description",
+      "group": "0032",
+      "element": "1060",
+      "action": "X/Z"
+    },
+    {
+      "name": "Requested Procedure ID",
+      "group": "0040",
+      "element": "1001",
+      "action": "X"
+    },
+    {
+      "name": "Requested Procedure Location",
+      "group": "0040",
+      "element": "1005",
+      "action": "X"
+    },
+    {
+      "name": "Requested Series Description",
+      "group": "0018",
+      "element": "9937",
+      "action": "X"
+    },
+    {
+      "name": "Requested SOP Instance UID",
+      "group": "0000",
+      "element": "1001",
+      "action": "U"
+    },
+    {
+      "name": "Requesting AE",
+      "group": "0074",
+      "element": "1236",
+      "action": "X"
+    },
+    {
+      "name": "Requesting Physician",
+      "group": "0032",
+      "element": "1032",
+      "action": "X"
+    },
+    {
+      "name": "Requesting Service",
+      "group": "0032",
+      "element": "1033",
+      "action": "X"
+    },
+    {
+      "name": "Respiratory Motion Compensation Technique Description",
+      "group": "0018",
+      "element": "9185",
+      "action": "X"
+    },
+    {
+      "name": "Responsible Organization",
+      "group": "0010",
+      "element": "2299",
+      "action": "X"
+    },
+    {
+      "name": "Responsible Person",
+      "group": "0010",
+      "element": "2297",
+      "action": "X"
+    },
+    {
+      "name": "Results Comments",
+      "group": "4008",
+      "element": "4000",
+      "action": "X"
+    },
+    {
+      "name": "Results Distribution List Sequence",
+      "group": "4008",
+      "element": "0118",
+      "action": "X"
+    },
+    {
+      "name": "Results ID",
+      "group": "4008",
+      "element": "0040",
+      "action": "X"
+    },
+    {
+      "name": "Results ID Issuer",
+      "group": "4008",
+      "element": "0042",
+      "action": "X"
+    },
+    {
+      "name": "Retrieve AE Title",
+      "group": "0008",
+      "element": "0054",
+      "action": "X"
+    },
+    {
+      "name": "Review Date",
+      "group": "300E",
+      "element": "0004",
+      "action": "Z"
+    },
+    {
+      "name": "Reviewer Name",
+      "group": "300E",
+      "element": "0008",
+      "action": "X/Z"
+    },
+    {
+      "name": "Review Time",
+      "group": "300E",
+      "element": "0005",
+      "action": "Z"
+    },
+    {
+      "name": "ROI Creator Sequence",
+      "group": "3006",
+      "element": "004D",
+      "action": "X"
+    },
+    {
+      "name": "ROI DateTime",
+      "group": "3006",
+      "element": "002D",
+      "action": "X"
+    },
+    {
+      "name": "ROI Description",
+      "group": "3006",
+      "element": "0028",
+      "action": "X"
+    },
+    {
+      "name": "ROI Generation Description",
+      "group": "3006",
+      "element": "0038",
+      "action": "X"
+    },
+    {
+      "name": "ROI Interpreter",
+      "group": "3006",
+      "element": "00A6",
+      "action": "Z"
+    },
+    {
+      "name": "ROI Interpreter Sequence",
+      "group": "3006",
+      "element": "004E",
+      "action": "X"
+    },
+    {
+      "name": "ROI Name",
+      "group": "3006",
+      "element": "0026",
+      "action": "Z"
+    },
+    {
+      "name": "ROI Observation DateTime",
+      "group": "3006",
+      "element": "002E",
+      "action": "X"
+    },
+    {
+      "name": "ROI Observation Description",
+      "group": "3006",
+      "element": "0088",
+      "action": "X"
+    },
+    {
+      "name": "ROI Observation Label",
+      "group": "3006",
+      "element": "0085",
+      "action": "X"
+    },
+    {
+      "name": "RT Accessory Device Slot ID",
+      "group": "300A",
+      "element": "0615",
+      "action": "Z"
+    },
+    {
+      "name": "RT Accessory Holder Slot ID",
+      "group": "300A",
+      "element": "0611",
+      "action": "Z"
+    },
+    {
+      "name": "RT Physician Intent Narrative",
+      "group": "3010",
+      "element": "005A",
+      "action": "Z"
+    },
+    {
+      "name": "RT Plan Date",
+      "group": "300A",
+      "element": "0006",
+      "action": "X/D"
+    },
+    {
+      "name": "RT Plan Description",
+      "group": "300A",
+      "element": "0004",
+      "action": "X"
+    },
+    {
+      "name": "RT Plan Label",
+      "group": "300A",
+      "element": "0002",
+      "action": "D"
+    },
+    {
+      "name": "RT Plan Name",
+      "group": "300A",
+      "element": "0003",
+      "action": "X"
+    },
+    {
+      "name": "RT Plan Time",
+      "group": "300A",
+      "element": "0007",
+      "action": "X/D"
+    },
+    {
+      "name": "RT Prescription Label",
+      "group": "3010",
+      "element": "0054",
+      "action": "D"
+    },
+    {
+      "name": "RT Tolerance Set Label",
+      "group": "300A",
+      "element": "062A",
+      "action": "D"
+    },
+    {
+      "name": "RT Treatment Approach Label",
+      "group": "3010",
+      "element": "0056",
+      "action": "X/D"
+    },
+    {
+      "name": "RT Treatment Phase UID",
+      "group": "3010",
+      "element": "003B",
+      "action": "U"
+    },
+    {
+      "name": "Safe Position Exit Date",
+      "group": "3008",
+      "element": "0162",
+      "action": "D"
+    },
+    {
+      "name": "Safe Position Exit Time",
+      "group": "3008",
+      "element": "0164",
+      "action": "D"
+    },
+    {
+      "name": "Safe Position Return Date",
+      "group": "3008",
+      "element": "0166",
+      "action": "D"
+    },
+    {
+      "name": "Safe Position Return Time",
+      "group": "3008",
+      "element": "0168",
+      "action": "D"
+    },
+    {
+      "name": "Scheduled Admission Date",
+      "group": "0038",
+      "element": "001A",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Admission Time",
+      "group": "0038",
+      "element": "001B",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Discharge Date",
+      "group": "0038",
+      "element": "001C",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Discharge Time",
+      "group": "0038",
+      "element": "001D",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Human Performers Sequence",
+      "group": "0040",
+      "element": "4034",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Patient Institution Residence",
+      "group": "0038",
+      "element": "001E",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Performing Physician's Name",
+      "group": "0040",
+      "element": "0006",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Performing Physician Identification Sequence",
+      "group": "0040",
+      "element": "000B",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Procedure Step Description",
+      "group": "0040",
+      "element": "0007",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Procedure Step End Date",
+      "group": "0040",
+      "element": "0004",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Procedure Step End Time",
+      "group": "0040",
+      "element": "0005",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Procedure Step Expiration DateTime",
+      "group": "0040",
+      "element": "4008",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Procedure Step ID",
+      "group": "0040",
+      "element": "0009",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Procedure Step Location",
+      "group": "0040",
+      "element": "0011",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Procedure Step Modification DateTime",
+      "group": "0040",
+      "element": "4010",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Procedure Step Start Date",
+      "group": "0040",
+      "element": "0002",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Procedure Step Start DateTime",
+      "group": "0040",
+      "element": "4005",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Procedure Step Start Time",
+      "group": "0040",
+      "element": "0003",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Station AE Title",
+      "group": "0040",
+      "element": "0001",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Station Geographic Location Code Sequence",
+      "group": "0040",
+      "element": "4027",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Station Name",
+      "group": "0040",
+      "element": "0010",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Station Name Code Sequence",
+      "group": "0040",
+      "element": "4025",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Study Location",
+      "group": "0032",
+      "element": "1020",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Study Location AE Title",
+      "group": "0032",
+      "element": "1021",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Study Start Date",
+      "group": "0032",
+      "element": "1000",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Study Start Time",
+      "group": "0032",
+      "element": "1001",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Study Stop Date",
+      "group": "0032",
+      "element": "1010",
+      "action": "X"
+    },
+    {
+      "name": "Scheduled Study Stop Time",
+      "group": "0032",
+      "element": "1011",
+      "action": "X"
+    },
+    {
+      "name": "Selector AE Value",
+      "group": "0072",
+      "element": "005E",
+      "action": "D"
+    },
+    {
+      "name": "Selector AS Value",
+      "group": "0072",
+      "element": "005F",
+      "action": "D"
+    },
+    {
+      "name": "Selector DA Value",
+      "group": "0072",
+      "element": "0061",
+      "action": "D"
+    },
+    {
+      "name": "Selector DT Value",
+      "group": "0072",
+      "element": "0063",
+      "action": "D"
+    },
+    {
+      "name": "Selector LO Value",
+      "group": "0072",
+      "element": "0066",
+      "action": "D"
+    },
+    {
+      "name": "Selector LT Value",
+      "group": "0072",
+      "element": "0068",
+      "action": "D"
+    },
+    {
+      "name": "Selector OB Value",
+      "group": "0072",
+      "element": "0065",
+      "action": "D"
+    },
+    {
+      "name": "Selector PN Value",
+      "group": "0072",
+      "element": "006A",
+      "action": "D"
+    },
+    {
+      "name": "Selector SH Value",
+      "group": "0072",
+      "element": "006C",
+      "action": "D"
+    },
+    {
+      "name": "Selector ST Value",
+      "group": "0072",
+      "element": "006E",
+      "action": "D"
+    },
+    {
+      "name": "Selector TM Value",
+      "group": "0072",
+      "element": "006B",
+      "action": "D"
+    },
+    {
+      "name": "Selector UN Value",
+      "group": "0072",
+      "element": "006D",
+      "action": "D"
+    },
+    {
+      "name": "Selector UR Value",
+      "group": "0072",
+      "element": "0071",
+      "action": "D"
+    },
+    {
+      "name": "Selector UT Value",
+      "group": "0072",
+      "element": "0070",
+      "action": "D"
+    },
+    {
+      "name": "Series Date",
+      "group": "0008",
+      "element": "0021",
+      "action": "X/D"
+    },
+    {
+      "name": "Series Description",
+      "group": "0008",
+      "element": "103E",
+      "action": "X"
+    },
+    {
+      "name": "Series Instance UID",
+      "group": "0020",
+      "element": "000E",
+      "action": "U"
+    },
+    {
+      "name": "Series Time",
+      "group": "0008",
+      "element": "0031",
+      "action": "X/D"
+    },
+    {
+      "name": "Service Episode Description",
+      "group": "0038",
+      "element": "0062",
+      "action": "X"
+    },
+    {
+      "name": "Service Episode ID",
+      "group": "0038",
+      "element": "0060",
+      "action": "X"
+    },
+    {
+      "name": "Setup Technique Description",
+      "group": "300A",
+      "element": "01B2",
+      "action": "X"
+    },
+    {
+      "name": "Shielding Device Description",
+      "group": "300A",
+      "element": "01A6",
+      "action": "X"
+    },
+    {
+      "name": "Slide Identifier",
+      "group": "0040",
+      "element": "06FA",
+      "action": "X"
+    },
+    {
+      "name": "Smoking Status",
+      "group": "0010",
+      "element": "21A0",
+      "action": "X"
+    },
+    {
+      "name": "SOP Authorization DateTime",
+      "group": "0100",
+      "element": "0420",
+      "action": "X"
+    },
+    {
+      "name": "SOP Instance UID",
+      "group": "0008",
+      "element": "0018",
+      "action": "U"
+    },
+    {
+      "name": "Source Conceptual Volume UID",
+      "group": "3010",
+      "element": "0015",
+      "action": "U"
+    },
+    {
+      "name": "Source End DateTime",
+      "group": "0018",
+      "element": "936A",
+      "action": "D"
+    },
+    {
+      "name": "Source Frame of Reference UID",
+      "group": "0064",
+      "element": "0003",
+      "action": "U"
+    },
+    {
+      "name": "Source Identifier",
+      "group": "0034",
+      "element": "0005",
+      "action": "D"
+    },
+    {
+      "name": "Source Image Sequence",
+      "group": "0008",
+      "element": "2112",
+      "action": "X/Z/U*"
+    },
+    {
+      "name": "Source Manufacturer",
+      "group": "300A",
+      "element": "0216",
+      "action": "X"
+    },
+    {
+      "name": "Source of Previous Values",
+      "group": "0400",
+      "element": "0564",
+      "action": "Z"
+    },
+    {
+      "name": "Source Serial Number",
+      "group": "3008",
+      "element": "0105",
+      "action": "X/Z"
+    },
+    {
+      "name": "Source Start DateTime",
+      "group": "0018",
+      "element": "9369",
+      "action": "D"
+    },
+    {
+      "name": "Source Strength Reference Date",
+      "group": "300A",
+      "element": "022C",
+      "action": "D"
+    },
+    {
+      "name": "Source Strength Reference Time",
+      "group": "300A",
+      "element": "022E",
+      "action": "D"
+    },
+    {
+      "name": "Special Needs",
+      "group": "0038",
+      "element": "0050",
+      "action": "X"
+    },
+    {
+      "name": "Specimen Accession Number",
+      "group": "0040",
+      "element": "050A",
+      "action": "X"
+    },
+    {
+      "name": "Specimen Detailed Description",
+      "group": "0040",
+      "element": "0602",
+      "action": "X"
+    },
+    {
+      "name": "Specimen Identifier",
+      "group": "0040",
+      "element": "0551",
+      "action": "D"
+    },
+    {
+      "name": "Specimen Preparation Sequence",
+      "group": "0040",
+      "element": "0610",
+      "action": "Z"
+    },
+    {
+      "name": "Specimen Short Description",
+      "group": "0040",
+      "element": "0600",
+      "action": "X"
+    },
+    {
+      "name": "Specimen UID",
+      "group": "0040",
+      "element": "0554",
+      "action": "U"
+    },
+    {
+      "name": "Start Acquisition DateTime",
+      "group": "0018",
+      "element": "9516",
+      "action": "X/D"
+    },
+    {
+      "name": "Station AE Title",
+      "group": "0008",
+      "element": "0055",
+      "action": "X"
+    },
+    {
+      "name": "Station Name",
+      "group": "0008",
+      "element": "1010",
+      "action": "X/Z/D"
+    },
+    {
+      "name": "Storage Media File-set UID",
+      "group": "0088",
+      "element": "0140",
+      "action": "U"
+    },
+    {
+      "name": "Structure Set Date",
+      "group": "3006",
+      "element": "0008",
+      "action": "Z"
+    },
+    {
+      "name": "Structure Set Description",
+      "group": "3006",
+      "element": "0006",
+      "action": "X"
+    },
+    {
+      "name": "Structure Set Label",
+      "group": "3006",
+      "element": "0002",
+      "action": "D"
+    },
+    {
+      "name": "Structure Set Name",
+      "group": "3006",
+      "element": "0004",
+      "action": "X"
+    },
+    {
+      "name": "Structure Set Time",
+      "group": "3006",
+      "element": "0009",
+      "action": "Z"
+    },
+    {
+      "name": "Study Arrival Date",
+      "group": "0032",
+      "element": "1040",
+      "action": "X"
+    },
+    {
+      "name": "Study Arrival Time",
+      "group": "0032",
+      "element": "1041",
+      "action": "X"
+    },
+    {
+      "name": "Study Comments",
+      "group": "0032",
+      "element": "4000",
+      "action": "X"
+    },
+    {
+      "name": "Study Completion Date",
+      "group": "0032",
+      "element": "1050",
+      "action": "X"
+    },
+    {
+      "name": "Study Completion Time",
+      "group": "0032",
+      "element": "1051",
+      "action": "X"
+    },
+    {
+      "name": "Study Date",
+      "group": "0008",
+      "element": "0020",
+      "action": "Z"
+    },
+    {
+      "name": "Study Description",
+      "group": "0008",
+      "element": "1030",
+      "action": "X"
+    },
+    {
+      "name": "Study ID",
+      "group": "0020",
+      "element": "0010",
+      "action": "Z"
+    },
+    {
+      "name": "Study ID Issuer",
+      "group": "0032",
+      "element": "0012",
+      "action": "X"
+    },
+    {
+      "name": "Study Instance UID",
+      "group": "0020",
+      "element": "000D",
+      "action": "U"
+    },
+    {
+      "name": "Study Read Date",
+      "group": "0032",
+      "element": "0034",
+      "action": "X"
+    },
+    {
+      "name": "Study Read Time",
+      "group": "0032",
+      "element": "0035",
+      "action": "X"
+    },
+    {
+      "name": "Study Time",
+      "group": "0008",
+      "element": "0030",
+      "action": "Z"
+    },
+    {
+      "name": "Study Verified Date",
+      "group": "0032",
+      "element": "0032",
+      "action": "X"
+    },
+    {
+      "name": "Study Verified Time",
+      "group": "0032",
+      "element": "0033",
+      "action": "X"
+    },
+    {
+      "name": "Substance Administration DateTime",
+      "group": "0044",
+      "element": "0010",
+      "action": "X"
+    },
+    {
+      "name": "Synchronization Frame of Reference UID",
+      "group": "0020",
+      "element": "0200",
+      "action": "U"
+    },
+    {
+      "name": "Table Top Position Alignment UID",
+      "group": "300A",
+      "element": "0054",
+      "action": "U"
+    },
+    {
+      "name": "Target UID",
+      "group": "0018",
+      "element": "2042",
+      "action": "U"
+    },
+    {
+      "name": "Telephone Number (Trial)",
+      "group": "0040",
+      "element": "A354",
+      "action": "X"
+    },
+    {
+      "name": "Template Extension Creator UID",
+      "group": "0040",
+      "element": "DB0D",
+      "action": "U"
+    },
+    {
+      "name": "Template Extension Organization UID",
+      "group": "0040",
+      "element": "DB0C",
+      "action": "U"
+    },
+    {
+      "name": "Template Local Version",
+      "group": "0040",
+      "element": "DB07",
+      "action": "X"
+    },
+    {
+      "name": "Template Version",
+      "group": "0040",
+      "element": "DB06",
+      "action": "X"
+    },
+    {
+      "name": "Text Comments",
+      "group": "4000",
+      "element": "4000",
+      "action": "X"
+    },
+    {
+      "name": "Text String",
+      "group": "2030",
+      "element": "0020",
+      "action": "X"
+    },
+    {
+      "name": "Time",
+      "group": "0040",
+      "element": "A122",
+      "action": "D"
+    },
+    {
+      "name": "Time of Document Creation or Verbal Transaction (Trial)",
+      "group": "0040",
+      "element": "A112",
+      "action": "X"
+    },
+    {
+      "name": "Time of Last Calibration",
+      "group": "0018",
+      "element": "1201",
+      "action": "X"
+    },
+    {
+      "name": "Time of Last Detector Calibration",
+      "group": "0018",
+      "element": "700E",
+      "action": "X/D"
+    },
+    {
+      "name": "Time of Secondary Capture",
+      "group": "0018",
+      "element": "1014",
+      "action": "X"
+    },
+    {
+      "name": "Timezone Offset From UTC",
+      "group": "0008",
+      "element": "0201",
+      "action": "X"
+    },
+    {
+      "name": "Topic Author",
+      "group": "0088",
+      "element": "0910",
+      "action": "X"
+    },
+    {
+      "name": "Topic Keywords",
+      "group": "0088",
+      "element": "0912",
+      "action": "X"
+    },
+    {
+      "name": "Topic Subject",
+      "group": "0088",
+      "element": "0906",
+      "action": "X"
+    },
+    {
+      "name": "Topic Title",
+      "group": "0088",
+      "element": "0904",
+      "action": "X"
+    },
+    {
+      "name": "Tracking UID",
+      "group": "0062",
+      "element": "0021",
+      "action": "U"
+    },
+    {
+      "name": "Transaction UID",
+      "group": "0008",
+      "element": "1195",
+      "action": "U"
+    },
+    {
+      "name": "Transducer Identification Sequence",
+      "group": "0018",
+      "element": "5011",
+      "action": "X"
+    },
+    {
+      "name": "Treatment Control Point Date",
+      "group": "3008",
+      "element": "0024",
+      "action": "D"
+    },
+    {
+      "name": "Treatment Control Point Time",
+      "group": "3008",
+      "element": "0025",
+      "action": "D"
+    },
+    {
+      "name": "Treatment Date",
+      "group": "3008",
+      "element": "0250",
+      "action": "X/D"
+    },
+    {
+      "name": "Treatment Machine Name",
+      "group": "300A",
+      "element": "00B2",
+      "action": "X/Z"
+    },
+    {
+      "name": "Treatment Position Group Label",
+      "group": "300A",
+      "element": "0608",
+      "action": "D"
+    },
+    {
+      "name": "Treatment Position Group UID",
+      "group": "300A",
+      "element": "0609",
+      "action": "U"
+    },
+    {
+      "name": "Treatment Session UID",
+      "group": "300A",
+      "element": "0700",
+      "action": "U"
+    },
+    {
+      "name": "Treatment Site",
+      "group": "3010",
+      "element": "0077",
+      "action": "X/D"
+    },
+    {
+      "name": "Treatment Sites",
+      "group": "300A",
+      "element": "000B",
+      "action": "X"
+    },
+    {
+      "name": "Treatment Technique Notes",
+      "group": "3010",
+      "element": "007A",
+      "action": "Z"
+    },
+    {
+      "name": "Treatment Time",
+      "group": "3008",
+      "element": "0251",
+      "action": "X/D"
+    },
+    {
+      "name": "Treatment Tolerance Violation DateTime",
+      "group": "300A",
+      "element": "0736",
+      "action": "D"
+    },
+    {
+      "name": "Treatment Tolerance Violation Description",
+      "group": "300A",
+      "element": "0734",
+      "action": "D"
+    },
+    {
+      "name": "UDI Sequence",
+      "group": "0018",
+      "element": "100A",
+      "action": "X"
+    },
+    {
+      "name": "UID",
+      "group": "0040",
+      "element": "A124",
+      "action": "U"
+    },
+    {
+      "name": "Unique Device Identifier",
+      "group": "0018",
+      "element": "1009",
+      "action": "X"
+    },
+    {
+      "name": "User Content Label",
+      "group": "3010",
+      "element": "0033",
+      "action": "D"
+    },
+    {
+      "name": "User Content Long Label",
+      "group": "3010",
+      "element": "0034",
+      "action": "D"
+    },
+    {
+      "name": "Verbal Source (Trial)",
+      "group": "0040",
+      "element": "A352",
+      "action": "X"
+    },
+    {
+      "name": "Verbal Source Identifier Code Sequence (Trial)",
+      "group": "0040",
+      "element": "A358",
+      "action": "X"
+    },
+    {
+      "name": "Verification DateTime",
+      "group": "0040",
+      "element": "A030",
+      "action": "D"
+    },
+    {
+      "name": "Verifying Observer Identification Code Sequence",
+      "group": "0040",
+      "element": "A088",
+      "action": "Z"
+    },
+    {
+      "name": "Verifying Observer Name",
+      "group": "0040",
+      "element": "A075",
+      "action": "D"
+    },
+    {
+      "name": "Verifying Observer Sequence",
+      "group": "0040",
+      "element": "A073",
+      "action": "D"
+    },
+    {
+      "name": "Verifying Organization",
+      "group": "0040",
+      "element": "A027",
+      "action": "D"
+    },
+    {
+      "name": "Visit Comments",
+      "group": "0038",
+      "element": "4000",
+      "action": "X"
+    },
+    {
+      "name": "​Waveform Filter Description",
+      "group": "003A",
+      "element": "0329",
+      "action": "X"
+    },
+    {
+      "name": "X-Ray Detector ID",
+      "group": "0018",
+      "element": "9371",
+      "action": "D"
+    },
+    {
+      "name": "X-Ray Detector Label",
+      "group": "0018",
+      "element": "9373",
+      "action": "X"
+    },
+    {
+      "name": "X-Ray Source ID",
+      "group": "0018",
+      "element": "9367",
+      "action": "D"
+    }
+  ]
+}

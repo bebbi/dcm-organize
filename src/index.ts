@@ -5,6 +5,7 @@ import type {
   TMapResults,
   TFileInfo,
   OrganizeOptions,
+  TWorkerMessage,
 } from './types'
 
 type TMappingWorkerOptions = TMappingOptions & {
@@ -86,23 +87,31 @@ function initializeMappingWorkers() {
     )
     mappingWorker.onerror = console.error
 
-    /* eslint-disable no-loop-func */
     mappingWorker.addEventListener('message', (event) => {
       switch (event.data.response) {
         case 'finished':
           availableMappingWorkers.push(mappingWorker)
           mapResultsList.push(event.data.mapResults)
           workersActive -= 1
+
+          // Add progress callback
+          if (progressCallback) {
+            progressCallback({
+              response: 'progress',
+              mapResults: event.data.mapResults,
+              processedFiles: mapResultsList.length,
+              totalFiles:
+                filesToProcess.length + mapResultsList.length + workersActive,
+            })
+          }
+
           dispatchMappingJobs()
           if ((mapResultsList.length - 1) % 100 === 0) {
             console.log(`Finished mapping ${mapResultsList.length} files`)
           }
           break
-        default:
-          console.error(`Unknown response from worker ${event.data.response}`)
       }
     })
-    /* eslint-enable no-loop-func */
 
     availableMappingWorkers.push(mappingWorker)
   }
@@ -170,18 +179,40 @@ async function collectMappingOptions(
   }
 }
 
-async function apply(organizeOptions: OrganizeOptions) {
+export type ProgressCallback = (message: TWorkerMessage) => void
+
+let progressCallback: ProgressCallback | undefined
+
+export async function apply(
+  options: OrganizeOptions,
+  onProgress?: ProgressCallback,
+): Promise<TMapResults[]> {
+  progressCallback = onProgress
+
+  // Initialize workers
   const fileListWorker = initializeFileListWorker()
   initializeMappingWorkers()
-  // Set global mappingWorkerOptions
-  mappingWorkerOptions = (await collectMappingOptions(
-    organizeOptions,
-  )) as TMappingWorkerOptions
+
+  // Get mapping options
+  mappingWorkerOptions = await collectMappingOptions(options)
+
+  // Start scanning
   fileListWorker.postMessage({
     request: 'scan',
-    directoryHandle: organizeOptions.inputDirectory,
+    directoryHandle: options.inputDirectory,
   })
-  dispatchMappingJobs()
-}
 
-export { apply }
+  // Wait for completion
+  return new Promise((resolve) => {
+    const checkComplete = setInterval(() => {
+      if (
+        workersActive === 0 &&
+        directoryScanFinished &&
+        filesToProcess.length === 0
+      ) {
+        clearInterval(checkComplete)
+        resolve(mapResultsList)
+      }
+    }, 100)
+  })
+}

@@ -79,3 +79,13 @@ export type TPs315EElement = {
   // introduced by us
   exceptCondition?: (attrs: TNaturalData) => boolean
 }
+
+export type TWorkerMessage = {
+  response: 'start' | 'progress' | 'finished' | 'error'
+  totalFiles?: number
+  processedFiles?: number
+  mapResults?: TMapResults
+  error?: Error
+}
+
+export type ProgressCallback = (message: TWorkerMessage) => void

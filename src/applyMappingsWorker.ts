@@ -9,11 +9,25 @@ self.addEventListener('message', (event) => {
   switch (event.data.request) {
     case 'apply':
       try {
+        // Send start message with total files
+        self.postMessage({
+          response: 'start',
+          totalFiles: 1,
+        })
+
         applyMappings(
           event.data.fileInfo,
           event.data.outputDirectory,
           event.data.mappingOptions,
         ).then((mapResults) => {
+          // Send progress message
+          self.postMessage({
+            response: 'progress',
+            mapResults: mapResults,
+            processedFiles: 1,
+          })
+
+          // Send finished message for completion
           self.postMessage({
             response: 'finished',
             mapResults: mapResults,

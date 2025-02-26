@@ -43,7 +43,8 @@
     "format": "bebbi-scripts format",
     "lint": "bebbi-scripts lint",
     "validate": "bebbi-scripts validate",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "generate:dicom": "tsx scripts/generateSampleDicomData.ts"
   },
   "dependencies": {
     "dcmjs": "^0.37.0",
@@ -60,6 +61,7 @@
     "husky": "^8.0.3",
     "node-fetch": "^3.3.2",
     "prettier": "^3.4.2",
+    "tsx": "^4.19.3",
     "xml2js": "^0.6.2"
   },
   "license": "MIT",

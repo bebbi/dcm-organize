@@ -1,0 +1,399 @@
+PS C:\Users\andre\Dev\Projects\dcm-ws\libraries\dcm-organize> yarn test dcmOrganize --watchAll=false
+Running `bebbi-scripts test`, Please wait...
+  console.warn
+    Unknown name in dataset TransferSynxtaxUID : 1.2.840.10008.1.2.1
+
+      22 |   naturalMetadata.TransferSynxtaxUID = EXPLICIT_LITTLE_ENDIAN // dcmjs always writes this
+      23 |   const mappedMetaheader =
+    > 24 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalMetadata)
+         |                                    ^
+      25 |   return mappedMetaheader
+      26 | }
+      27 |
+
+      at warn (node_modules/dcmjs/src/DicomMetaDictionary.js:290:25)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at mapMetaheader (src/mapMetaheader.ts:24:36)
+      at dcmOrganize (src/dcmOrganize.ts:40:18)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type UV - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type UV - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type UV - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type UV - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type OL - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type OL - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type OL - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type OL - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type OL - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type OL - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type OL - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type OV - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type SV - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type UV - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type OV - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type OV - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type UV - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type See - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type See - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.error
+    Invalid vr type See - using UN
+
+      41 |   )
+      42 |   mappedDicomData.dict =
+    > 43 |     dcmjs.data.DicomMetaDictionary.denaturalizeDataset(naturalData)
+         |                                    ^
+      44 |
+      45 |   return { dicomData: mappedDicomData, mapResults: _cloneDeep(mapResults) }
+      46 | }
+
+      at Function.error [as createByTypeString] (node_modules/dcmjs/src/ValueRepresentation.js:336:31)
+      at createByTypeString (node_modules/dcmjs/src/DicomMetaDictionary.js:245:50)
+          at Array.forEach (<anonymous>)
+      at Function.forEach [as denaturalizeDataset] (node_modules/dcmjs/src/DicomMetaDictionary.js:212:30)
+      at dcmOrganize (src/dcmOrganize.ts:43:36)
+      at Object.<anonymous> (src/dcmOrganize.test.ts:53:31)
+
+  console.log
+    Test output saved to: C:\Users\andre\Dev\Projects\dcm-ws\libraries\dcm-organize\src\fixtures\test-output\dcmOrganize-output.json
+
+      at Object.<anonymous> (src/dcmOrganize.test.ts:61:13)
+
+ PASS  src/dcmOrganize.test.ts
+  dcmOrganize basic functionality
+    √ processes DICOM data without errors (279 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       1 passed, 1 total
+Snapshots:   0 total
+Time:        1.652 s, estimated 2 s
+Ran all test suites matching /dcmOrganize/i.
+
+         |---.,---.|---.|---.o   ,---.,---.,---.o,---.|--- ,---.
+with ❤️   |   ||---'|   ||   ||---`---.|    |    ||   ||    `---.
+         `---'`---'`---'`---'`   `---'`---'`    `|---'`---'`---'
+PS C:\Users\andre\Dev\Projects\dcm-ws\libraries\dcm-organize>

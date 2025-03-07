@@ -15,7 +15,7 @@ const dummyTestValues: Record<string, any> = {
   OD: '123.456', // Other Double
   OF: '123.45', // Other Float
   OW: '01', // Other Word
-  PN: 'Doe^Jhon', // Person Name
+  PN: 'Doe^John', // Person Name
   SH: 'Test Short String', // Short String
   SL: '-123', // Signed Long
   SQ: [

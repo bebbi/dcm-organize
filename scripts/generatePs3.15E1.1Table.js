@@ -6,7 +6,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 const srcDir = join(__dirname, '..', 'src')
 const configDir = join(srcDir, 'config', 'dicom')
-const assetsDir = join(__dirname, '..', 'assets', 'standard')
+const testdataDir = join(__dirname, '..', 'testdata')
 
 /**
  * Fetches a DICOM standard file from the innolitics/dicom-standard repository.
@@ -131,7 +131,7 @@ export const elementNamesToAlwaysKeep = [
 
     // Save the processed allElements to a TypeScript file
     await writeFile(
-      join(assetsDir, 'allElements.ts'),
+      join(testdataDir, 'allElements.ts'),
       generatedComment +
         `type dicomElement = {
   tag: string

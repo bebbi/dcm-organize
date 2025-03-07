@@ -1,6 +1,6 @@
 import type { TDicomData, DicomDataset } from 'dcmjs'
-import dummyTestValues from '../assets/testdata/dummyTestValues'
-import { allElements } from '../assets/standard/allElements'
+import dummyTestValues from '../testdata/dummyTestValues'
+import { allElements } from '../testdata/allElements'
 import { writeFileSync } from 'fs'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
@@ -91,7 +91,7 @@ export default sample;
 `
 
 // Write the data to a TypeScript file
-const outputPath = join(__dirname, '../assets/testdata/sample.ts')
+const outputPath = join(__dirname, '../testdata/sample.ts')
 writeFileSync(outputPath, fileContent, 'utf8')
 
 // Log a success message

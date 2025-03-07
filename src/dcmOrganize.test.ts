@@ -1,26 +1,13 @@
 import dcmOrganize from './dcmOrganize'
-import { sample } from '../assets/testdata/sample'
+import { sample } from '../testdata/sample'
 import { writeFileSync, mkdirSync, existsSync } from 'fs'
 import { join } from 'path'
 import type { TMappingOptions } from './types'
 import { clearReplaceUidCache } from './replaceUid'
 import { elementNamesToAlwaysKeep } from './config/dicom/elementNamesToAlwaysKeep'
-import { allElements } from '../assets/standard/allElements'
+import { allElements } from '../testdata/allElements'
 
 describe('dcmOrganize basic functionality', () => {
-  const testOutputDir = join(__dirname, '..', 'assets', 'testoutput')
-
-  // Create output directory if it doesn't exist
-  beforeAll(() => {
-    if (!existsSync(testOutputDir)) {
-      try {
-        mkdirSync(testOutputDir, { recursive: true })
-      } catch (err) {
-        console.error('Could not create test output directory:', err)
-      }
-    }
-  })
-
   // Clear UID cache after each test
   afterEach(() => {
     clearReplaceUidCache()
@@ -87,6 +74,15 @@ describe('dcmOrganize basic functionality', () => {
 
   // To be used if we want to save test output
   const saveTestOutput = (filename: string, data: any) => {
+    const testOutputDir = join(__dirname, '..', 'testdata', 'testoutput')
+    if (!existsSync(testOutputDir)) {
+      try {
+        mkdirSync(testOutputDir, { recursive: true })
+      } catch (err) {
+        console.error('Could not create test output directory:', err)
+      }
+    }
+
     const outputPath = join(testOutputDir, filename)
     writeFileSync(outputPath, JSON.stringify(data, null, 2))
     console.log(`Test output saved to: ${outputPath}`)

@@ -44,7 +44,7 @@
     "lint": "bebbi-scripts lint",
     "validate": "bebbi-scripts validate",
     "prepare": "husky install",
-    "generate:dicom": "tsx scripts/generateSampleDicomData.ts"
+    "generate:unitTestSample": "tsx scripts/generateSampleDicomData.ts"
   },
   "dependencies": {
     "dcmjs": "^0.37.0",
